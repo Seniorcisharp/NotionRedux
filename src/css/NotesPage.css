@@ -1,0 +1,93 @@
+
+li {
+  background-color: var(--background-color-light);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px var(--box-shadow-light);
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 600px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li.dark-theme {
+  background-color: var(--background-color-dark);
+  box-shadow: 0 6px 12px var(--box-shadow-dark);
+}
+
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+li.dark-theme:hover {
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+li div strong {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-color-light);
+  margin-bottom: 10px;
+}
+
+li.dark-theme div strong {
+  color: var(--primary-color-dark);
+}
+
+li div p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-color-light);
+  margin: 0;
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+li.dark-theme div p {
+  color: var(--text-color-dark);
+}
+
+/* Стили для адаптивности */
+@media (max-width: 1200px) {
+  .notes-page {
+    padding: 30px;
+  }
+
+  .notes-page h1 {
+    font-size: 28px;
+  }
+
+  input[type="text"] {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .button {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  ul {
+    max-width: 100%;
+  }
+
+  li {
+    max-width: 100%;
+    padding: 16px;
+  }
+
+  li div strong {
+    font-size: 18px;
+  }
+
+  li div p {
+    max-height: 100px;
+  }
+
+  li div button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

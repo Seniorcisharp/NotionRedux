@@ -52,13 +52,6 @@ Use the Dev Containers: Clone Repository in Container Volume... command in VS Co
 If you have VS Code and Docker installed, clicking the link will automatically install the Dev Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
 Alternatively, for GitHub Codespaces:
 
-Install the GitHub Codespaces extension in VS Code and use the Codespaces: Create New Codespace command.
-6. (Optional) Requirements for Docker/Codespace
-To run the project within Docker or Codespaces, ensure your container has at least:
-
-4 Cores
-6 GB of RAM (8 GB recommended) to run a full build
-For more details, please refer to the development container README.
 
 Contributing
 We welcome contributions! You can participate by:

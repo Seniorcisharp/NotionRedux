@@ -1,6 +1,7 @@
 # NOTION Project
 
 Welcome to the **NOTION** project repository! This open-source application is designed to provide powerful tools for managing personal data and tasks. Developed and maintained by the community, NOTION aims to enhance productivity and organization.
+This application was created for taking notes. But in order to create notes you need to register and log in.
 
 ## Getting Started
 

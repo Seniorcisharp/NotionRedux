@@ -1,41 +1,82 @@
 
-🚀 Как запустить проект
-Следуйте этим шагам, чтобы развернуть проект на вашем компьютере:
+# NOTION Project
 
-1. Клонируйте репозиторий
-Скопируйте репозиторий на ваш компьютер с помощью команды:
+This repository contains the source code for the **NOTION** project. It is an application designed to provide powerful tools for managing personal data and tasks. This project is open-source and is developed and maintained by the community.
 
-bash
-Copy code
+## Getting Started
+
+Follow the steps below to set up and run the project on your local machine:
+
+### 1. Clone the Repository
+
+Start by cloning the repository to your local machine using the following command:
+
+```bash
 git clone https://github.com/Seniorcisharp/NOTION.git
-Перейдите в папку проекта:
+Then, navigate to the project folder:
 
 bash
 Copy code
 cd NOTION
-2. Установите зависимости
-Убедитесь, что у вас установлен Node.js (версии 16 или выше) и npm.
-Установите зависимости проекта командой:
+2. Install Dependencies
+Ensure you have Node.js (version 16 or higher) and npm installed. Once that's confirmed, install the project's dependencies by running:
 
 bash
 Copy code
 npm install
-3. Запустите локальный сервер с db.json (если используется JSON Server)
-Если ваш проект использует JSON Server для эмуляции API, выполните команду:
-npm run dev:db
-
-arduino
-Copy code
-http://localhost:3001
-4. Запустите проект
-Теперь вы можете запустить клиентское приложение:
+3. Start the Local Server with db.json (If Using JSON Server)
+If your project uses JSON Server to mock the API, start the server with the following command:
 
 bash
 Copy code
-для запуска сервера
+npm run dev:db
+This will start the JSON Server and provide an API at http://localhost:3001.
+
+4. Run the Project
+Now, you can run the client-side application by executing:
+
+bash
+Copy code
 npm run dev
-Откройте проект в вашем браузере по адресу:
+The project will be available in your browser at:
 
 arduino
 Copy code
 http://localhost:3000
+5. (Optional) For Development Containers
+This repository includes a Visual Studio Code Dev Container for a streamlined development environment.
+
+To get started with Dev Containers:
+
+Use the Dev Containers: Clone Repository in Container Volume... command in VS Code to create a Docker volume for better disk I/O on macOS and Windows.
+If you have VS Code and Docker installed, clicking the link will automatically install the Dev Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
+Alternatively, for GitHub Codespaces:
+
+Install the GitHub Codespaces extension in VS Code and use the Codespaces: Create New Codespace command.
+6. (Optional) Requirements for Docker/Codespace
+To run the project within Docker or Codespaces, ensure your container has at least:
+
+4 Cores
+6 GB of RAM (8 GB recommended) to run a full build
+For more details, please refer to the development container README.
+
+Contributing
+We welcome contributions! You can participate by:
+
+Submitting bugs and feature requests, and helping us verify issues
+Reviewing source code changes
+Reviewing the documentation and submitting pull requests to improve it
+For detailed instructions on how to contribute, please read the document How to Contribute, which covers:
+
+How to build and run from source
+The development workflow, including debugging and running tests
+Coding guidelines
+How to submit pull requests
+Finding an issue to work on
+Contributing to translations
+Feedback
+You can share your feedback or ask questions through the following channels:
+
+Stack Overflow: Ask questions and find solutions to common issues.
+GitHub Issues: Report bugs or request new features.
+GitHub Discussions: Connect with the extension author community.

@@ -48,9 +48,6 @@ This repository includes a Visual Studio Code Dev Container for a streamlined de
 
 To get started with Dev Containers:
 
-Use the Dev Containers: Clone Repository in Container Volume... command in VS Code to create a Docker volume for better disk I/O on macOS and Windows.
-If you have VS Code and Docker installed, clicking the link will automatically install the Dev Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
-Alternatively, for GitHub Codespaces:
 
 
 Contributing
